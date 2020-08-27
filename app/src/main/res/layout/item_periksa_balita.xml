@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/viewActive"
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@android:color/holo_green_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/TvNamaBalita"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/TvjenisKelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/TvUmur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/TvBeratBadan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/TvTinggiBadan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/TvRekom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/TvTanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+                <TextView
+                    android:id="@+id/TvResult"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingBottom="4dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

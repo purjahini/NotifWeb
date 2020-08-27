@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/gradient">
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/RvBalita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@android:color/holo_orange_light"
+        android:id="@+id/PbBalita"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/PbBalita"
+        android:id="@+id/TvDataNull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Belum Ada"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_light"
+       android:gravity="center"
+        />
+</RelativeLayout>

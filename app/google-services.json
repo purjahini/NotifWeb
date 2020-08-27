@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242355928350",
+    "firebase_url": "https://notifweb-f40cc.firebaseio.com",
+    "project_id": "notifweb-f40cc",
+    "storage_bucket": "notifweb-f40cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242355928350:android:9f870e20b4e56261979d0f",
+        "android_client_info": {
+          "package_name": "net.bedev.notifweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242355928350-iv9375srjbmtoeso4238hd4pogv0jhc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.bedev.notifweb",
+            "certificate_hash": "2eff5e499a2c9b86d2c12ec6946185fe2efe217e"
+          }
+        },
+        {
+          "client_id": "242355928350-lqno1i6ga048avj94catbk9biri2kkg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBzJGNzJKm1aBpws3_r0fhh6DtNjMuID0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242355928350-lqno1i6ga048avj94catbk9biri2kkg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
